@@ -16,7 +16,6 @@ typedef struct hashmap {
     unsigned int len;
 } HashMap;
 
-
 unsigned hashcode(HashMap*, char*);
 Pair* getLastNode(HashMap*);
 void set(HashMap*, char*, int);
